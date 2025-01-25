@@ -1,20 +1,19 @@
-# Bayesian Statistical Analysis: Exploring Diabetes and Energy Consumption Data  
+# Bayesian Statistical Analysis for DL : Exploring Diabetes and Energy Consumption Data  
 
 ## Overview  
 This project applies Bayesian methods to analyze two datasets: the **National Institute of Diabetes and Digestive and Kidney Diseases’ (NIDDK) diabetes dataset** and the **PJM Interconnection’s hourly energy consumption dataset**. Inspired by the 2017 paper *"Deep Learning: A Bayesian Perspective"*, we implement Bayesian approaches to showcase their strengths, challenges, and the potential for broader applications in statistical analysis. We also explore advancements in Bayesian methodologies since the paper’s publication.  
 
 ## Authors  
-- 🔹 **[Zakarya Elmimouni]** – [ENSAE] 
-- 🔹 **[Ahmed Khairaldin]** – [ENSAE] 
-- 🔹 **[Amine Razig]** – [ENSAE] 
+- 🔹 **Zakarya Elmimouni** – [ENSAE] 
+- 🔹 **Ahmed Khairaldin** – [ENSAE] 
+- 🔹 **Amine Razig** – [ENSAE] 
 
 ## Table of Contents  
 1. [Objective](#objective)  
-2. [Datasets](#datasets)  
-3. [Techniques and Methods](#techniques-and-methods)  
-4. [Simulation Study](#simulation-study)  
-5. [How to Run the Project](#how-to-run-the-project)  
-6. [Requirements](#requirements)  
+2. [Datasets](#Datasets )  
+3. [Techniques and Methods](#techniques-and-methods-in-the-report)  
+4. [How to Run the Project](#how-to-run-the-project)  
+5. [Requirements](#requirements)  
 
 ## Objective  
 The primary objective of this project is to demonstrate the advantages and challenges of Bayesian methods when applied to real-world data. We aim to:  
@@ -40,6 +39,25 @@ The primary objective of this project is to demonstrate the advantages and chall
 3. **Bayesian Neural Networks**  
    - Inspired by the original paper, implemented for exploring complex relationships in the data.  
 
+
+<div style="display: flex; justify-content: space-between;">
+  <figure style="width: 45%;">
+    <img src="./img/diabetes.png" alt="Diabetes Data" width="100%" />
+    <figcaption>Diabetes Data</figcaption>
+  </figure>
+  
+  <figure style="width: 45%;">
+    <img src="./img/synth.png" alt="Simulated Data" width="100%" />
+    <figcaption>Simulated Data</figcaption>
+  </figure>
+</div>
+
+<br />
+
+<figure style="width: 45%;">
+  <img src="./img/PMJE.png" alt="Energy Consumption Data" width="100%" />
+  <figcaption>Energy Consumption Data</figcaption>
+</figure>
 
 ## How to Run the Project  
 

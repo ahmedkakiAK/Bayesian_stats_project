@@ -63,8 +63,8 @@ The primary objective of this project is to demonstrate the advantages and chall
 
 ### Step 1: Clone the Repository  
 ```bash  
-git clone https://github.com/[your-repo]/Bayesian-Analysis-Project.git 
-cd Bayesian-Analysis-Project  
+git clone https://github.com/ahmedkakiAK/Bayesian_stats_project.git
+cd Bayesian_stats_project 
 ```  
 
 ### Step 2: Install Dependencies  

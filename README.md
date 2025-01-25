@@ -67,25 +67,19 @@ git clone https://github.com/ahmedkakiAK/Bayesian_stats_project.git
 cd Bayesian_stats_project 
 ```  
 
-### Step 2: Install Dependencies  
-Ensure **Python 3.8+** is installed, then run:  
-```bash  
-pip install -r requirements.txt  
-```  
-
-### Step 3: Explore the Data and Methods  
+### Step 2: Explore the Data and Methods  
 
 #### Model Implementation  
-- Bayesian models are implemented in separate files 
+- Experiments are conducted in separate files 
 
-Run these notebooks individually to explore specific methods.  
+Run these notebooks individually to explore specific experiments.  
 
 - `diabetes_exp.ipynb` Notebook for experiments with **Diabetes data**. 
-- `synth_exp.ipynb` Notebook for experiments with **synthetics data**. 
-- `PMJE_exp.ipynb` Notebook for experiments with **Temporal Energy consumption data**. 
+- `synth_exp.ipynb` Notebook for experiments with **synthetic data**. 
+- `PMJE_exp.ipynb` Notebook for experiments with **Hourly Power Consumption data**. 
 
 
-### Step 4: Results and Visualizations  
+### Step 3: Results and Visualizations  
 - Key results, (predictive performance) are visualized in each method-specific notebook.  
 
 ## Requirements  
@@ -97,7 +91,9 @@ Run these notebooks individually to explore specific methods.
   - `seaborn`  
   - `scipy`
   - `sklearn`
-  - `tensorflow` (for Bayesian Neural Networks)  
+  - 'torch'
+  - `tensorflow` (for Bayesian Neural Networks)
+  - 'keras' 
 - **Optional**: GPU for accelerated computation with neural models.  
 
 ## References

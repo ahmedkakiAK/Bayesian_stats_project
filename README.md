@@ -1,12 +1,12 @@
 # Bayesian Statistical Analysis for DL : Exploring Diabetes and Energy Consumption Data  
 
 ## Overview  
-This project applies Bayesian methods to analyze two datasets: the **National Institute of Diabetes and Digestive and Kidney Diseases’ (NIDDK) diabetes dataset** and the **PJM Interconnection’s hourly energy consumption dataset**. Inspired by the 2017 paper *"Deep Learning: A Bayesian Perspective"*, we implement Bayesian approaches to showcase their strengths, challenges, and the potential for broader applications in statistical analysis. We also explore advancements in Bayesian methodologies since the paper’s publication.  
+This project applies Bayesian methods to analyze two datasets: the **National Institute of Diabetes and Digestive and Kidney Diseases’ (NIDDK) diabetes dataset** and the **PJM Interconnection’s hourly energy consumption dataset**. Inspired by the 2017 paper *"Deep Learning: A Bayesian Perspective"*, we implement Bayesian approaches to showcase their strengths, challenges, and the potential for broader applications in statistical analysis. 
 
 ## Authors  
-- 🔹 **Zakarya Elmimouni** – [ENSAE] 
-- 🔹 **Ahmed Khairaldin** – [ENSAE] 
-- 🔹 **Amine Razig** – [ENSAE] 
+   ▪️ **`Zakarya Elmimouni`** – (ENSAE) 
+   ▪️ **`Ahmed Khairaldin`** – (ENSAE) 
+   ▪️ **`Amine Razig`** – (ENSAE) 
 
 ## Table of Contents  
 1. [Objective](#objective)  
@@ -19,7 +19,7 @@ This project applies Bayesian methods to analyze two datasets: the **National In
 The primary objective of this project is to demonstrate the advantages and challenges of Bayesian methods when applied to real-world data. We aim to:  
 1. Explore Bayesian methods for analyzing the diabetes and energy consumption datasets.  
 2. Develop a simulation study to evaluate the methods' robustness and effectiveness.  
-3. Discuss advancements in Bayesian techniques since the publication of the foundational paper.  
+3. Discuss advancements in Bayesian techniques since the publication of the paper.  
 
 ## 📊 Datasets  
 
@@ -31,12 +31,12 @@ The primary objective of this project is to demonstrate the advantages and chall
    - **Description**: Time series data capturing hourly energy consumption for regional transmission operators.  
    - **Purpose**: Explore Bayesian approaches for modeling and predicting energy usage patterns over time.  
 
-## Techniques and Methods  in the report : 
+## Techniques and Methods  treated in the report : 
 
 1. **MLP**  
-2. **Markov Chain Monte Carlo (MCMC)**  
-   - sampling and estimating posterior distributions.
-3. **Bayesian Neural Networks**  
+2. **Markov Chain Monte Carlo**
+3. **Dropout Approximation**  
+4. **Bayesian Neural Networks**  
    - Inspired by the original paper, implemented for exploring complex relationships in the data.  
 
 
@@ -76,12 +76,17 @@ pip install -r requirements.txt
 ### Step 3: Explore the Data and Methods  
 
 #### Model Implementation  
-- Bayesian models are implemented in separate files
+- Bayesian models are implemented in separate files 
 
 Run these notebooks individually to explore specific methods.  
 
+- `diabetes_exp.ipynb` Notebook for experiments with **Diabetes data**. 
+- `synth_exp.ipynb` Notebook for experiments with **synthetics data**. 
+- `PMJE_exp.ipynb` Notebook for experiments with **Temporal Energy consumption data**. 
+
+
 ### Step 4: Results and Visualizations  
-- Key results, including posterior distributions and predictive performance, are visualized in each method-specific notebook.  
+- Key results, (predictive performance) are visualized in each method-specific notebook.  
 
 ## Requirements  
 - **Python 3.8+**  
@@ -90,11 +95,13 @@ Run these notebooks individually to explore specific methods.
   - `pandas`  
   - `matplotlib`  
   - `seaborn`  
-  - `scipy`  
-  - `pymc3`  
+  - `scipy`
+  - `sklearn`
   - `tensorflow` (for Bayesian Neural Networks)  
 - **Optional**: GPU for accelerated computation with neural models.  
 
----  
+## References
+- Vadim Sokolov Nicholas Polson. Deep learning: A bayesian perspective. 12:1275–1304, 2017
 
-This README balances technical detail and clarity, ensuring reproducibility for anyone interested in the project.
+- Zoubin Ghahramani Yarin Gal. Dropout as a bayesian approximation: Representing model uncer-
+tainty in deep learning. 2016
